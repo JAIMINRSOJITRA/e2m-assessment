@@ -1,0 +1,40 @@
+# ============================================================
+# requirements.txt
+# ============================================================
+# This file lists all Python packages needed to run the
+# AI Project Manager application.
+#
+# Install everything with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# --- Streamlit: Web UI framework for the dashboard ---
+streamlit>=1.35.0
+
+# --- Google GenAI SDK: For calling Gemini models (primary LLM) ---
+google-genai>=1.0.0
+
+# --- Ollama: Python SDK for running local LLMs (secondary LLM) ---
+# Requires Ollama desktop app running at http://localhost:11434
+ollama>=0.2.0
+
+# --- SQLAlchemy: ORM for SQLite database interactions ---
+sqlalchemy>=2.0.0
+
+# --- Pandas: Tabular data manipulation for task DataFrames ---
+pandas>=2.0.0
+
+# --- Plotly: Interactive Gantt / timeline chart visualizations ---
+plotly>=5.20.0
+
+# --- python-dotenv: Loads secrets from .env file during local dev ---
+python-dotenv>=1.0.0
+
+# --- Pydantic: Strict JSON schema validation for LLM outputs ---
+pydantic>=2.0.0
+
+# --- pypdf: Extracts text from uploaded PDF meeting documents ---
+pypdf>=4.0.0
+
+# --- python-docx: Extracts text from uploaded Word .docx files ---
+python-docx>=1.1.0
