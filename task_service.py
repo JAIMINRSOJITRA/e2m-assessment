@@ -30,7 +30,7 @@
 
 from sqlalchemy.orm import Session
 from llm.extractor import extract_meeting_data
-from database import crud
+import crud
 
 
 def process_meeting(
