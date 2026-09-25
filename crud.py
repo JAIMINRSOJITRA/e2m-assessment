@@ -18,7 +18,7 @@
 
 import pandas as pd
 from sqlalchemy.orm import Session
-from database.models import Meeting, Task
+from models import Meeting, Task
 
 
 # ============================================================
