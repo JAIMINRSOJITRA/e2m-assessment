@@ -9,7 +9,6 @@
 #   - Correctly strips unwanted content
 # ============================================================
 
-import pytest
 import sys
 import os
 
