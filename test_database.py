@@ -29,9 +29,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 # Import ORM base and models
-from database.connection import Base
-from database.models import Meeting, Task
-from database import crud
+from connection import Base
+from models import Meeting, Task
+import crud
 
 
 # ============================================================
