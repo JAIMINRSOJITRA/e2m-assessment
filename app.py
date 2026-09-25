@@ -33,8 +33,8 @@ from config import (
     PRIORITY_OPTIONS, STATUS_OPTIONS, INPUT_SOURCES,
     GEMINI_MODEL, OLLAMA_MODEL
 )
-from database.connection import init_db, get_db
-from database import crud
+from connection import init_db, get_db
+import crud
 from services.task_service import process_meeting
 from services.export_service import export_to_csv, export_to_markdown
 
