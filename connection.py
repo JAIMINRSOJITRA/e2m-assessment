@@ -89,6 +89,6 @@ def init_db():
     Called once at Streamlit app startup.
     """
     # Import models so SQLAlchemy registers their table schemas
-    from database import models  # noqa: F401
+    import models  # noqa: F401
     # Create all tables that are mapped to Base.metadata
     Base.metadata.create_all(bind=engine)
