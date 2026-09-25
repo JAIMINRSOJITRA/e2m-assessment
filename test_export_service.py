@@ -11,7 +11,6 @@
 #   - Markdown handles empty task DataFrames gracefully
 # ============================================================
 
-import pytest
 import sys
 import os
 import pandas as pd
