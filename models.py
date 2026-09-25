@@ -20,7 +20,7 @@
 from datetime import datetime, timezone
 from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
-from database.connection import Base
+from connection import Base
 
 
 # Helper: returns current UTC time as a timezone-aware datetime object.
