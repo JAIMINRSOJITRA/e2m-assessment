@@ -1,6 +1,8 @@
 # ============================================================
-# database/__init__.py
+# __init__.py
 # ============================================================
-# Makes the 'database' directory a Python package.
-# This allows imports like: from database.models import Meeting
+# Marks the project root as a Python package. Note: connection.py,
+# models.py and crud.py live flat at the repo root (not in a
+# 'database/' subfolder), so other modules import them directly,
+# e.g. `from models import Meeting` / `import crud`.
 # ============================================================
