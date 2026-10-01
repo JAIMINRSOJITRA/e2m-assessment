@@ -17,7 +17,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from llm.parser import parse_llm_response, MeetingOutput, TaskOutput
+from parser import parse_llm_response, MeetingOutput, TaskOutput
 
 
 # ============================================================
