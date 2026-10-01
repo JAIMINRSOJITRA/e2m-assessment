@@ -29,7 +29,7 @@
 # ============================================================
 
 from sqlalchemy.orm import Session
-from llm.extractor import extract_meeting_data
+from extractor import extract_meeting_data
 import crud
 
 
