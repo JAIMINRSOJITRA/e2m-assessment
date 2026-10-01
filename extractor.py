@@ -25,8 +25,8 @@
 import google.genai as genai
 import ollama
 
-from llm.prompt import get_system_prompt, get_user_prompt
-from llm.parser import parse_llm_response, MeetingOutput
+from prompt import get_system_prompt, get_user_prompt
+from parser import parse_llm_response, MeetingOutput
 from config import GEMINI_API_KEY, GEMINI_MODEL, OLLAMA_BASE_URL, OLLAMA_MODEL
 
 
