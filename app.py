@@ -35,15 +35,15 @@ from config import (
 )
 from connection import init_db, get_db
 import crud
-from services.task_service import process_meeting
-from services.export_service import export_to_csv, export_to_markdown
+from task_service import process_meeting
+from export_service import export_to_csv, export_to_markdown
 
 # --- Input processors (one per input source type) ---
-from input_processors.text_processor import process_text
-from input_processors.pdf_processor import process_pdf
-from input_processors.docx_processor import process_docx
-from input_processors.email_processor import process_email
-from input_processors.slack_processor import process_slack
+from text_processor import process_text
+from pdf_processor import process_pdf
+from docx_processor import process_docx
+from email_processor import process_email
+from slack_processor import process_slack
 
 
 # ============================================================
