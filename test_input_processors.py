@@ -15,9 +15,9 @@ import os
 # Add project root to path so imports work from tests folder
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from input_processors.text_processor import process_text
-from input_processors.email_processor import process_email
-from input_processors.slack_processor import process_slack
+from text_processor import process_text
+from email_processor import process_email
+from slack_processor import process_slack
 
 
 # ============================================================
