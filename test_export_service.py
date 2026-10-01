@@ -17,7 +17,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from services.export_service import export_to_csv, export_to_markdown
+from export_service import export_to_csv, export_to_markdown
 
 
 # ============================================================
